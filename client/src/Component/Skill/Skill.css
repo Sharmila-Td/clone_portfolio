@@ -1,0 +1,108 @@
+.skill_content{
+    background-color: rgb(252, 246, 244);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.logo{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-family: Pacifico, cursive;
+    position: fixed;
+    left: 2rem;
+    top: 2rem;
+    z-index: 3;
+}
+
+.nav_btn {
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    background-color: rgb(252, 246, 244);
+    padding: 0.3rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+.social_link-group {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 2rem;
+    z-index: 3;
+}
+
+.social_link-group .social_link {
+    transform: none;
+}
+
+.social_link-group .social_link a {
+    color: inherit;
+    background-color: transparent;
+}
+
+.skill_box{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgba(252, 246, 244, 0.25);
+    padding: 2rem;
+    width: 30vw;
+    height: 60vh;
+    z-index: 3;
+    line-height: 1.5;
+    font-family: "Ubuntu Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.skill_box-title{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: calc(1em + 1vw);
+}
+
+.skill_box-subtitle{
+    color: rgb(0, 0, 0);
+    font-size: calc(0.5em + 1vw);
+    padding: 0.5rem 0px;
+}
+
+.skill_box-ul ul{
+    margin-left: 2rem;
+}
+
+.skill_box-para{
+    line-height: 1.5;
+}
+
+.skill_box-shadow{
+    position: fixed;
+    top: 80%;
+    right: 30%;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: calc(5rem + 5vw);
+    z-index: 0;
+}
