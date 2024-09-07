@@ -52,7 +52,6 @@ const Skill = () => {
                 <ul>
                     <li>VS code</li>
                     <li>Figma</li>
-                    <li>Notepad</li>
                     <li>Github</li>
                 </ul>
             </div>
