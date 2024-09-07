@@ -1,11 +1,19 @@
-import Portfolio from "./Component/Portfolio/Portfolio"
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Portfolio from './Component/Portfolio/Portfolio';
+import Profile from './Component/Profile/Profile';
+
+
 
 
 function App() {
   return (
-      <div className="App" style={{ opacity: 1 }}>
-       <Portfolio/>
-      </div>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Portfolio/>} />
+      <Route path="/profile" element={<Profile/>} />
+    </Routes>
+  </Router>
   )
 }
 

@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scrollbar-width: none;
 }
 .App{
     background: rgb(252, 246, 244);
