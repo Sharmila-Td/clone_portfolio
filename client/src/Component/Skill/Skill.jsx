@@ -38,7 +38,7 @@ const Skill = () => {
               <FaYoutube size={25} fill="#000000" />
             </a>
           </div>
-          <span color="light" className="nav_line" style={{ height: '8rem' }}></span>
+          <span color="dark" className="nav_line" style={{ height: '8rem' }}></span>
         </div>
         <div className='skill_box'>
             <h2 className='skill_box-title'>Frontend Developer</h2>
