@@ -11,7 +11,7 @@
 
 .logo {
     display: inline-block;
-    color: rgb(252, 246, 244);
+    color: white ;
     font-family: Pacifico, cursive;
     position: fixed;
     left: 2rem;
@@ -76,7 +76,7 @@ a {
 
 .nav_line {
     width: 2px;
-    background-color: rgb(255, 255, 255);
+    background-color:white !important;
     height: 8rem;
 }
 

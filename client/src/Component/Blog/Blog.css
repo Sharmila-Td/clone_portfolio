@@ -10,15 +10,7 @@
    padding-bottom: 5rem;
 }
 
-.logo {
-  display: inline-block;
-  color: rgb(0, 0, 0) !important; 
-  font-family: 'Pacifico', cursive;
-  position: fixed;
-  left: 2rem;
-  top: 2rem;
-  z-index: 999; 
-}
+
 
 .nav_btn {
    position: fixed;
